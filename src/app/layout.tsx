@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import { siteDetails } from '@/data/siteDetails';
 
 import "./globals.css";
+import Head from "next/head";
 
 const manrope = Manrope({ subsets: ['latin'] });
 const sourceSans = Source_Sans_3({ subsets: ['latin'] });
@@ -43,6 +44,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&display=swap"
+          rel="stylesheet"
+        />
+        <link rel="icon" href="/public/favicon.ico" type="image/x-icon" />
+      </head>
       <body
         className={`${manrope.className} ${sourceSans.className} antialiased`}
       >

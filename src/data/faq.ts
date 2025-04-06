@@ -3,23 +3,23 @@ import { siteDetails } from "./siteDetails";
 
 export const faqs: IFAQ[] = [
     {
-        question: `Is ${siteDetails.siteName} secure?`,
-        answer: 'Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security.',
+        question: `What kind of geospatial data does ${siteDetails.siteName} support?`,
+        answer: 'GeoXC supports a wide range of geospatial formats including satellite imagery, vector shapefiles, raster datasets, point cloud data, and GTFS feeds. We also handle APIs, CSVs, and custom schemas for seamless integration with your systems.',
     },
     {
-        question: `Can I use ${siteDetails.siteName} on multiple devices?`,
-        answer: 'Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer.',
+        question: `How does ${siteDetails.siteName} ensure data accuracy and consistency?`,
+        answer: 'We apply rigorous data validation, semantic structuring, and standardization workflows. Our knowledge-graph-based pipeline ensures spatial and temporal coherence, minimizing noise and redundancy for high-quality outputs.',
     },
     {
-        question: 'Can I connect all my bank accounts?',
-        answer: `Yes! ${siteDetails.siteName} supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts.`
+        question: `Can ${siteDetails.siteName} help us integrate geospatial data from multiple sources?`,
+        answer: `Absolutely. ${siteDetails.siteName}  specializes in harmonizing geospatial data from disparate sources, including government open data, satellite feeds, and IoT systems—standardizing them into unified, query-ready datasets.`
     },
     {
-        question: 'Do I need any financial expertise to use the investing features?',
-        answer: 'Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level.',
+        question: `What industries does ${siteDetails.siteName} serve?`,
+        answer: 'We primarily work with transportation, urban planning, tourism, disaster prevention, and cross-border data exchange sectors. Our solutions are scalable for both public agencies and private enterprises.',
     },
     {
-        question: 'What if I need help using the app?',
-        answer: 'Our dedicated support team is available 24/7 via chat or email. Plus, we offer extensive in-app tutorials and a comprehensive knowledge base to help you make the most of Finwise.'
+        question: `Is ${siteDetails.siteName} customizable for our organization’s specific needs?`,
+        answer: 'Yes. We offer modular services ranging from data cleaning to knowledge graph construction. Whether you need API access, custom ontology modeling, or analytics-ready formats, GeoXC can tailor the solution to fit your goals.'
     }
 ];

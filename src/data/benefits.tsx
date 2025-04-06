@@ -4,69 +4,69 @@ import { IBenefit } from "@/types"
 
 export const benefits: IBenefit[] = [
     {
-        title: "Smart Budgeting",
-        description: "Take the guesswork out of managing your money. Our AI-powered budgeting tool adapts to your lifestyle and helps you stay on track.",
+        title: "Geospatial Data Processing",
+        description: "We streamline your geospatial pipeline—from raw imagery and shapefiles to structured, standardized datasets.",
         bullets: [
             {
-                title: "Intelligent Categorization",
-                description: "Automatically sorts your transactions for crystal-clear insights.",
+                title: "Multi-format Support",
+                description: "Handle raster, vector, remote sensing, and photo-based data.",
                 icon: <FiBarChart2 size={26} />
             },
             {
-                title: "Customizable Goals",
-                description: "Set and track financial objectives that matter to you.",
+                title: "Noise-Free Cleaning",
+                description: "Remove duplication and errors with smart automation",
                 icon: <FiTarget size={26} />
             },
             {
-                title: "Predictive Analysis",
-                description: "Get ahead of your finances with spending forecasts and alerts.",
+                title: "Cross-Platform Conversion",
+                description: "Seamlessly bridge formats like GeoTIFF, SHP, CSV, and more.",
                 icon: <FiTrendingUp size={26} />
             }
         ],
-        imageSrc: "/images/mockup-1.webp"
+        imageSrc: "/images/mockup-11.png"
     },
     {
-        title: "Seamless Investing",
-        description: "Start building wealth today, no financial degree required. Finwise makes investing accessible and straightforward.",
+        title: "Knowledge Graph & Semantic Structuring",
+        description: "We transform your data into semantic knowledge structures that are searchable, scalable, and logically connected.",
         bullets: [
             {
-                title: "Micro-Investing",
-                description: "Begin with as little as $1 and watch your money grow.",
+                title: "Ontology-Based Modeling",
+                description: "Create structured meaning behind every location or asset.",
                 icon: <FiDollarSign size={26} />
             },
             {
-                title: "Expert Portfolios",
-                description: "Choose from investment strategies tailored to your risk tolerance.",
+                title: "Knowledge Graph Construction",
+                description: "Link entities, time, space, and relationships into one view.",
                 icon: <FiBriefcase size={26} />
             },
             {
-                title: "Real-Time Performance",
-                description: "Track your investments with easy-to-understand metrics and visuals.",
+                title: "Query-Ready Architecture",
+                description: "Enable AI-driven analysis and easy cross-filtering.",
                 icon: <FiPieChart size={26} />
             }
         ],
-        imageSrc: "/images/mockup-2.webp"
+        imageSrc: "/images/mockup-22.png"
     },
     {
-        title: "Bank-Grade Security",
-        description: "Your financial data deserves the best protection. Rest easy knowing Finwise employs cutting-edge security measures.",
+        title: "Insight-to-Action Pipeline",
+        description: "We don’t just process data—we help you make better decisions and uncover opportunities.",
         bullets: [
             {
-                title: "Military-Grade Encryption",
-                description: "Your information is safeguarded with the highest level of encryption.",
+                title: "Product Strategy Alignment",
+                description: "Use data to solve real product pain points.",
                 icon: <FiLock size={26} />
             },
             {
-                title: "Biometric Authentication",
-                description: "Access your account securely with fingerprint or facial recognition.",
+                title: "Decision Intelligence",
+                description: "Turn complex spatial data into strategic insights.",
                 icon: <FiUser size={26} />
             },
             {
-                title: "Real-Time Fraud Detection",
-                description: "Our system constantly monitors for suspicious activity to keep your money safe.",
+                title: "Innovation Acceleration",
+                description: "Discover what’s next through smart visual analytics.",
                 icon: <FiShield size={26} />
             }
         ],
-        imageSrc: "/images/mockup-1.webp"
+        imageSrc: "/images/mockup-33.png"
     },
 ]

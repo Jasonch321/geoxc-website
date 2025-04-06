@@ -7,31 +7,31 @@ export const footerDetails: {
     telephone: string;
     socials: ISocials;
 } = {
-    subheading: "Empowering businesses with cutting-edge financial technology solutions.",
+    subheading: "Empowering desiction making with cutting-edge data driven technology solutions.",
     quickLinks: [
         {
             text: "Features",
             url: "#features"
         },
-        {
-            text: "Pricing",
-            url: "#pricing"
-        },
+        // {
+        //     text: "Pricing",
+        //     url: "#pricing"
+        // },
         {
             text: "Testimonials",
             url: "#testimonials"
         }
     ],
-    email: 'address@yoursite.com',
-    telephone: '+1 (123) 456-7890',
+    email: 'jason@geoxc.com',
+    telephone: '+886 928-867-725',
     socials: {
-        // github: 'https://github.com',
+        // github: 'https://github.com/Jasonch321',
         // x: 'https://twitter.com/x',
-        twitter: 'https://twitter.com/Twitter',
-        facebook: 'https://facebook.com',
+        // twitter: 'https://twitter.com/Twitter',
+        // facebook: 'https://facebook.com',
         // youtube: 'https://youtube.com',
-        linkedin: 'https://www.linkedin.com',
+        linkedin: 'https://www.linkedin.com/company/geoxc',
         // threads: 'https://www.threads.net',
-        instagram: 'https://www.instagram.com',
+        // instagram: 'https://www.instagram.com',
     }
 }

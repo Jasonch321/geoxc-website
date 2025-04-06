@@ -1,8 +1,5 @@
 import { ctaDetails } from "@/data/cta"
-
-import AppStoreButton from "./AppStoreButton"
-import PlayStoreButton from "./PlayStoreButton"
-import ContactUsButton from "./ContactUsButton"
+import ContactUsButton from "./ContactUsButton";
 
 const CTA: React.FC = () => {
     return (
@@ -20,8 +17,6 @@ const CTA: React.FC = () => {
 
                         <div className="mt-4 flex flex-col sm:flex-row items-center sm:gap-4">
                         <ContactUsButton />
-                        {/* <AppStoreButton />
-                        <PlayStoreButton /> */}
                         </div>
                     </div>
                 </div>
@@ -30,4 +25,4 @@ const CTA: React.FC = () => {
     )
 }
 
-export default CTA
+export default CTA_ContactUs;
