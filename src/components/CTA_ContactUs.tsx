@@ -25,4 +25,4 @@ const CTA: React.FC = () => {
     )
 }
 
-export default CTA_ContactUs;
+export default CTA;
