@@ -2,8 +2,8 @@ export const siteDetails = {
     siteName: 'GeoXC',
     siteUrl: 'https://www.geoxc.com',
     metadata: {
-        title: 'Finwise - Next.js and Tailwind CSS Landing Page Template',
-        description: 'Finwise empowers businesses with cutting-edge technology solutions to drive success and efficiency.',
+        title: 'GeoXC - Unleash Your Geospatial Data Potential',
+        description: 'From raw imagery and vector files to organized data by AI, GeoXC transforms spatial chaos into clarity and strategic intelligence.',
     },
     language: 'en-us',
     locale: 'en-US',
